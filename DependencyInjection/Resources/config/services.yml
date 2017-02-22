@@ -1,0 +1,5 @@
+services:
+    data_providers.vm6:
+        class: MovingImage\DataProvider\VideoManager6
+        arguments:
+            - '@vm6_api.client'

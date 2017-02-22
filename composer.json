@@ -1,0 +1,34 @@
+{
+  "name": "movingimage/vm6-data-provider-bundle",
+  "description": "Symfony bundle that wires the Video Manager 6 DataProvider's services into the service container",
+  "type": "library",
+  "license": "Proprietary",
+  "authors": [
+    {
+      "name": "Robert Szeker",
+      "email": "robert.szeker@movingimage.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://packagist.mi24.tv/"
+    }
+  ],
+  "config": {
+    "secure-http": false
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": "^5.5 || ^7.0",
+    "symfony/framework-bundle": "^2.7 || ^3.0",
+    "movingimage/vm6-api-bundle": "^0.1.0",
+    "movingimage/data-provider-vm6": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "MovingImage\\Bundle\\DataProvider\\VideoManager6\\": ""
+    }
+  }
+}
