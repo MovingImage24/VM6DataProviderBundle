@@ -24,7 +24,7 @@
     "php": "^5.5 || ^7.0",
     "symfony/framework-bundle": "^2.7 || ^3.0",
     "movingimage/vm6-api-bundle": "~0.1.0",
-    "movingimage/data-provider-vm6": "^1.0.0"
+    "movingimage/data-provider-vm6": "dev-master"
   },
   "autoload": {
     "psr-4": {
