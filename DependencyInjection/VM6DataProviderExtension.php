@@ -1,6 +1,6 @@
 <?php
 
-namespace MovingImage\Bundle\DataProvider\VideoManagerPro\DependencyInjection;
+namespace MovingImage\Bundle\DataProvider\VideoManager6\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

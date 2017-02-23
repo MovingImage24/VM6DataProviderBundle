@@ -1,5 +1,5 @@
 <?php
-namespace MovingImage\Bundle\DataProvider\VideoManagerPro;
+namespace MovingImage\Bundle\DataProvider\VideoManager6;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
@@ -8,6 +8,6 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
  *
  * @author Robert Szeker <robert.szeker@movingimage.com>
  */
-class VMProDataProviderBundle extends Bundle
+class VM6DataProviderBundle extends Bundle
 {
 }
