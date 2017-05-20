@@ -14,7 +14,7 @@
   "require": {
     "php": "^5.5 || ^7.0",
     "symfony/framework-bundle": "^2.7 || ^3.0",
-    "movingimage/data-provider-vm6": "^1.5",
+    "movingimage/data-provider-vm6": "dev-master",
     "movingimage/vm6-api-bundle": "dev-master"
   },
   "autoload": {
