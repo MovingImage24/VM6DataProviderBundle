@@ -9,21 +9,12 @@
       "email": "robert.szeker@movingimage.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "http://packagist.mi24.tv/"
-    }
-  ],
-  "config": {
-    "secure-http": false
-  },
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
     "php": "^5.5 || ^7.0",
     "symfony/framework-bundle": "^2.7 || ^3.0",
-    "movingimage/data-provider-vm6": "dev-master",
+    "movingimage/data-provider-vm6": "^1.5",
     "movingimage/vm6-api-bundle": "dev-master"
   },
   "autoload": {
